@@ -1,4 +1,6 @@
-import ClassForm from "./Component.jsx/ClassForm"
+import ClassForm from "./Component/ClassForm"
+import FunctionForm from "./Component/FunctionForm"
+
 
 
 function App() {
@@ -6,7 +8,13 @@ function App() {
 
   return (
     <>
-      <ClassForm/>
+    <ClassForm/>
+    <br/>
+    <hr/>
+    <hr/>
+    <hr/>
+    <br/>
+      <FunctionForm/>
     </>
   )
 }
